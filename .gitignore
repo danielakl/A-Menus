@@ -1,0 +1,27 @@
+## Gradle
+.gradle
+/build/
+local.properties
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
+
+## JetBrains Software
+.idea/
+*.iml
+bin/
+gen/
+out/
+
+## Android
+*.apk
+*.ap_
+
+## Java
+*.class
+*.jar
+hs_err_pid*
+
+## Linux
+.Trash-*
+.nfs*
